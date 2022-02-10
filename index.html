@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+<h1 id = "titulo"> COTIZADOR DE HABITACIONES </h1>
+    <h3 id="subtitulo">Seleccione el tipo de habitacion deseada</h3>
+  
+        <input type = "image" src="./img/simple.jpg" value="Simple" width="200" height="160" id="Simple">
+        <input type = "image" src="./img/doble.jpg" width="200" height="160" id="Doble">
+        <input type = "image" src="./img/matrimonial.jpg" width="200" height="160" id="Matrimonial">
+        <input type = "image" src="./img/compartida.jpg" width="200" height="160" id="Compartida">
+    <form> 
+        <input type="text" name="noches" id="noches" placeholder="Seleccione cantidad de noches a alojarse" size="35">
+        <br>
+        <input type="text" name="noches" id="pago" placeholder="Forma de pago credito - debito" size="35">
+        <br>
+        <button type="button" onclick="captura()">Captura</button>
+    </form>
+<br>
+    <div class="simple" id ="Simple">La habitacion seleccionada es del tipo simple</div>
+        
+   
+
+    </main>
+    <script src="./habitaciones.js"></script>
+<script src="./entrega_7.js"></script>
+
+</body>
+</html>
